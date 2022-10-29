@@ -1,0 +1,10 @@
+.skills-container {
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
+.title-skills h3 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}

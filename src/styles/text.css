@@ -3,10 +3,21 @@
   height: 30rem;
   background-color: white;
   color: black;
+  margin-bottom: 100vh;
 }
 .text2 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .text_container {
+    height: 5rem;
+    width: 100%;
+  }
+  .text2 h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
 }

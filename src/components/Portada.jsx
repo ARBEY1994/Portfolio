@@ -6,8 +6,11 @@ const Portada = () => {
   return (
     <div className="portada1">
       <video className="videoPortada" src={video} autoPlay loop muted />
+
       <h1>Heiner Arevalo</h1>
-      <p>Full Stack Developer</p>
+      <p>
+        Full Stack Developer | Node.js | Express | Sequelize | React | Redux{" "}
+      </p>
     </div>
   );
 };
