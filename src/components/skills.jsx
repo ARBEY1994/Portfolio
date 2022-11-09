@@ -1,13 +1,22 @@
 import React from "react";
 import "../styles/skills.css";
+import { useEffect } from "react";
 import sequelize from "./imagenes/sequelize.png";
-const skills = () => {
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+const Skills = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div className="skills-container">
-      <div className="title-skills">
+      <div className="title-skills" data-aos="fade-down-right">
         <h3>Skills</h3>
       </div>
-      <div>
+      <div data-aos="fade-down-left">
         <img
           src="https://img.icons8.com/fluency/144/000000/javascript.png"
           alt=""
@@ -38,4 +47,4 @@ const skills = () => {
   );
 };
 
-export default skills;
+export default Skills;

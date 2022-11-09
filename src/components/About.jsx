@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/About.css";
-import logoh from "./imagenes/ArbeyArevalo.jpg";
+import logoh from "./imagenes/foto.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div className="container-about">
-      <div className="about">
+      <div className="about" data-aos="fade-down-right">
         <h3>About me</h3>
         <p>
           Software developer with knowledge in back-end and front-end developed
@@ -15,7 +22,7 @@ const About = () => {
           projects that meet the needs and preferences of clients.
         </p>
       </div>
-      <div className="about-img">
+      <div className="about-img" data-aos="fade-down-left">
         <img src={logoh} alt="" />
       </div>
     </div>
