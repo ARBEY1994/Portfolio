@@ -4,7 +4,7 @@ import Portada from "./components/Portada";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Slider from "./components/slider";
-import Text from "./components/text";
+
 import Footer from "./components/footer";
 import Skills from "./components/skills";
 
@@ -25,7 +25,7 @@ function App() {
       <About />
       <Skills />
       <Slider />
-      <Text />
+
       <Footer />
     </div>
   );

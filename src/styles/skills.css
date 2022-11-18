@@ -1,10 +1,67 @@
 .skills-container {
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  background-color: aliceblue;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.title-skills h3 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  font-family: "Times New Roman", Times, serif;
+
+.compu {
+  height: 40rem;
+  width: 43rem;
+}
+.contenSkill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  grid-auto-rows: minmax(5rem, auto);
+  grid-gap: 0.5rem;
+}
+.box img {
+  /* adjust the below to control the 3D effect */
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a, 40deg));
+  /* */
+  clip-path: polygon(
+    var(--y) var(--y),
+    calc(100% - var(--y)) var(--y),
+    calc(100% - var(--y)) calc(100% - var(--y)),
+    calc(100% - var(--y) - var(--x)) var(--_c, 100%),
+    calc(var(--x) + var(--y)) var(--_c, 100%),
+    var(--y) calc(100% - var(--y))
+  );
+  outline: var(--y) solid rgba(0, 0, 0, 0.4);
+  outline-offset: calc(-1 * var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+}
+.box:hover img {
+  --_a: 0deg;
+  --_c: calc(100% - var(--y));
+}
+
+/* the below is irrelevant to the 3D effect */
+.box {
+  cursor: pointer;
+}
+
+body {
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  body {
+    grid-auto-flow: row;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .skills-container {
+    flex-direction: column;
+    padding: 0%;
+    height: auto;
+  }
+  .contenSkill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+  }
 }

@@ -1,8 +1,8 @@
 .container-about {
   display: flex;
-  background-color: aliceblue;
-  color: black;
-  height: 70vh;
+  background-color: gray;
+  color: white;
+  height: 100vh;
   padding: 100px 0 100px 0;
 }
 .about {
@@ -20,11 +20,21 @@
 .about p {
   line-height: 1.5;
 }
-.about-img img {
-  height: 17rem;
-  width: 17rem;
-  display: flex;
-  border-radius: 1rem;
+
+.botoncvA {
+  background-color: rgb(95, 92, 92);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+
+  transition: all 0.3s ease-out;
+  position: relative;
+  top: 90%;
+}
+.botoncvA:hover {
+  color: black;
+  background-color: yellow;
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 960px) {

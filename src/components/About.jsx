@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import "../styles/About.css";
-import logoh from "./imagenes/foto.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Spline from "@splinetool/react-spline";
 
 const About = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const About = () => {
     });
   }, []);
   return (
-    <div className="container-about">
+    <div className="container-about" id="seccion2">
       <div className="about" data-aos="fade-down-right">
         <h3>About me</h3>
         <p>
@@ -21,9 +22,14 @@ const About = () => {
           skills in JavaScript, Node.js, React, among others, to achieve final
           projects that meet the needs and preferences of clients.
         </p>
+
+        <a href="https://drive.google.com/file/d/1wtv2UmS1KjvMuyTN9cmMMSdslnd37uWK/view?usp=sharing">
+          <button className="botoncvA">See CV</button>
+        </a>
       </div>
+
       <div className="about-img" data-aos="fade-down-left">
-        <img src={logoh} alt="" />
+        <Spline scene="https://prod.spline.design/NdCNayBMFCAVt-ll/scene.splinecode" />
       </div>
     </div>
   );

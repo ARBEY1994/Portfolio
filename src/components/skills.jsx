@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import sequelize from "./imagenes/sequelize.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Spline from "@splinetool/react-spline";
 
 const Skills = () => {
   useEffect(() => {
@@ -12,36 +13,75 @@ const Skills = () => {
     });
   }, []);
   return (
-    <div className="skills-container">
-      <div className="title-skills" data-aos="fade-down-right">
-        <h3>Skills</h3>
+    <div className="skills-container" id="seccion3">
+      <div className="compu" data-aos="fade-right">
+        <Spline scene="https://prod.spline.design/KCFgHx0E-okQ6DYG/scene.splinecode" />
       </div>
-      <div data-aos="fade-down-left">
-        <img
-          src="https://img.icons8.com/fluency/144/000000/javascript.png"
-          alt=""
-        />
-        <img src="https://img.icons8.com/color/144/000000/nodejs.png" alt="" />
-        <img src="https://img.icons8.com/office/160/000000/react.png" alt="" />
-        <img src="https://img.icons8.com/color/144/000000/redux.png" alt="" />
-        <img
-          src="https://img.icons8.com/ios/150/000000/express-js.png"
-          alt=""
-        />
-        <img src={sequelize} alt="" />
-        <img
-          src="https://img.icons8.com/color/144/000000/html-5--v2.png"
-          alt=""
-        />
-        <img src="https://img.icons8.com/fluency/144/000000/css3.png" alt="" />
-        <img
-          src="https://img.icons8.com/color/144/000000/material-ui.png"
-          alt=""
-        />
-        <img
-          src="https://img.icons8.com/color/144/000000/postgreesql.png"
-          alt=""
-        />
+
+      <div className="contenSkill" data-aos="fade-left">
+        <div className="box">
+          <img
+            src="https://img.icons8.com/fluency/144/000000/javascript.png"
+            alt=""
+          />
+        </div>
+
+        <div className="box">
+          <img
+            src="https://img.icons8.com/color/144/000000/nodejs.png"
+            alt=""
+          />
+        </div>
+
+        <div className="box">
+          <img src="https://img.icons8.com/color/144/000000/redux.png" alt="" />
+        </div>
+        <div className="box">
+          <img
+            src="https://img.icons8.com/ios/150/000000/express-js.png"
+            alt=""
+          />
+        </div>
+
+        <div className="box">
+          <img
+            src="https://img.icons8.com/color/144/000000/html-5--v2.png"
+            alt=""
+          />
+        </div>
+        <div className="box">
+          <img
+            src="https://img.icons8.com/fluency/144/000000/css3.png"
+            alt=""
+          />
+        </div>
+        <div className="box">
+          <img
+            src="https://img.icons8.com/color/144/000000/material-ui.png"
+            alt=""
+          />
+        </div>
+        <div className="box">
+          <img
+            src="https://img.icons8.com/color/144/000000/postgreesql.png"
+            alt=""
+          />
+        </div>
+        <div className="box">
+          <img
+            src="https://img.icons8.com/office/160/000000/react.png"
+            alt=""
+          />
+        </div>
+        <div className="box">
+          <img src={sequelize} alt="" />
+        </div>
+        <div className="box">
+          <img
+            src="https://img.icons8.com/ios-filled/150/null/github.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
