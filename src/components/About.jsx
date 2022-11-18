@@ -23,7 +23,10 @@ const About = () => {
           projects that meet the needs and preferences of clients.
         </p>
 
-        <a href="https://drive.google.com/file/d/1wtv2UmS1KjvMuyTN9cmMMSdslnd37uWK/view?usp=sharing">
+        <a
+          href="https://drive.google.com/file/d/1wtv2UmS1KjvMuyTN9cmMMSdslnd37uWK/view?usp=sharing"
+          target="_blank"
+        >
           <button className="botoncvA">See CV</button>
         </a>
       </div>
