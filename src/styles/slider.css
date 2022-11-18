@@ -14,13 +14,12 @@
   padding: 0 10rem 0 10rem;
 }
 .imagen_carrusel {
-  height: 80%;
+  height: 90%;
   border-radius: 0.5rem;
   overflow: hidden;
   position: relative;
   cursor: pointer;
-  padding: 3rem;
-
+  padding: 1em;
   transition: all 0.2s ease-in-out;
 }
 
