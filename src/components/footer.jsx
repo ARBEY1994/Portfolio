@@ -56,7 +56,7 @@ const Footer = () => {
       <div className="text_container" data-aos="fade-down-left">
         <h1>¡The power of imagination makes us infinite!</h1>
         <a
-          href="https://drive.google.com/file/d/1wtv2UmS1KjvMuyTN9cmMMSdslnd37uWK/view?usp=sharing"
+          href="https://drive.google.com/file/d/11lVpSSDYkX7LPRlRPE_m6mkw4MCWXN1T/view?usp=sharing"
           target="_blank"
         >
           <button className="botoncv">See CV</button>
