@@ -26,6 +26,7 @@ const About = () => {
         <a
           href="https://drive.google.com/file/d/11lVpSSDYkX7LPRlRPE_m6mkw4MCWXN1T/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <button className="botoncvA">See CV</button>
         </a>

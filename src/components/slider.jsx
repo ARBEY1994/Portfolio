@@ -32,20 +32,33 @@ const Slider = () => {
           stopOnHover={true}
           dynamicHeight={true}
         >
-          <a title="velvet" href="https://velvetpf.vercel.app/" target="_blank">
+          <a
+            title="velvet"
+            href="https://velvetpf.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="imagen_carrusel">
               <img src={imag} alt="img no fount" />
 
               <p className="legend">Project 1</p>
             </div>
           </a>
-          <a href="https://github.com/ARBEY1994/PI_VideoGames" target="_blank">
+          <a
+            href="https://github.com/ARBEY1994/PI_VideoGames"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="imagen_carrusel">
               <img src={image} alt="img no fount" />
               <p className="legend">Project 2</p>
             </div>
           </a>
-          <a href="https://github.com/ARBEY1994/PI-POKEMON" target="_blank">
+          <a
+            href="https://github.com/ARBEY1994/PI-POKEMON"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="imagen_carrusel">
               <img src={images} alt="img no fount" />
               <p className="legend">Project 3</p>

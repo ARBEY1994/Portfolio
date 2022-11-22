@@ -58,6 +58,7 @@ const Footer = () => {
         <a
           href="https://drive.google.com/file/d/11lVpSSDYkX7LPRlRPE_m6mkw4MCWXN1T/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <button className="botoncv">See CV</button>
         </a>
