@@ -49,19 +49,27 @@ body {
   font-size: 1rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   body {
     grid-auto-flow: row;
   }
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 760px) {
   .skills-container {
-    flex-direction: column;
-    padding: 0%;
-    height: auto;
+    display: flex;
+    justify-items: center;
+    width: auto;
+  }
+  .compu {
+    height: 20rem;
+    width: 20rem;
+  }
+  .box img {
+    height: 7rem;
+    width: 7rem;
   }
   .contenSkill {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

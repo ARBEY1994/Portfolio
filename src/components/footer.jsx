@@ -11,7 +11,7 @@ const Footer = () => {
     });
   }, []);
   return (
-    <footer className="footer" id="seccion5">
+    <footer className="footer-container" id="seccion5">
       <div data-aos="fade-down-right">
         <div className="footer_info">
           <h1>Heiner Arevalo</h1>

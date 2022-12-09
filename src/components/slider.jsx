@@ -21,7 +21,7 @@ const Slider = () => {
       <div className="title-carrusel" data-aos="fade-down-right">
         <h2>MY PROJECTS</h2>
       </div>
-      <div data-aos="fade-down-left">
+      <div className="container_project" data-aos="fade-down-left">
         <Carousel
           centerMode={true}
           autoPlay={true}
