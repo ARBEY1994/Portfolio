@@ -22,7 +22,7 @@ const NavBar = ({ isScrolling }) => {
         <div className="namen">
           <p>Heiner Arevalo</p>
         </div>
-        <div className="linksNav">
+        <div className={`linksNav ${state && "open"}`}>
           <div className="ojooNav">
             <img src={iconH} alt="header" />
             <a href="#seccion1" onClick={() => setState(!state)}>

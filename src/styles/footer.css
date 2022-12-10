@@ -91,8 +91,8 @@
 }
 @media only screen and (max-width: 760px) {
   .footer-container {
-    padding: 1px;
-    padding-top: 1px;
+    padding: 3px;
+    padding-top: 3px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

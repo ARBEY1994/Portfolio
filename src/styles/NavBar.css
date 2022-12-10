@@ -55,6 +55,10 @@
   .linksNav {
     display: block;
     float: right;
+    transform: translateX(-150%);
+  }
+  .linksNav.open {
+    transform: translateX(0) !important;
   }
   .logona {
     background-color: #515151;
