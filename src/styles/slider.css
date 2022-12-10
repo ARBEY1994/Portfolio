@@ -31,16 +31,17 @@
 @media only screen and (max-width: 960px) {
   .container-carrusel {
     flex-direction: column;
+    justify-items: center;
   }
   .title-carrusel {
     width: 100%;
     text-align: center;
     padding: 0.2rem 0 0.2rem 0;
     position: relative;
-    top: 3rem;
+    top: 10rem;
   }
   .container_project {
     position: relative;
-    top: 4rem;
+    top: 15rem;
   }
 }
