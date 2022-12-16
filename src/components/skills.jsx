@@ -19,21 +19,21 @@ const Skills = () => {
       </div>
 
       <div className="contenSkill">
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/fluency/144/000000/javascript.png"
             alt=""
           />
         </div>
 
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/color/144/000000/nodejs.png"
             alt=""
           />
         </div>
 
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img src="https://img.icons8.com/color/144/000000/redux.png" alt="" />
         </div>
         <div className="box" data-aos="fade-left">
@@ -43,40 +43,40 @@ const Skills = () => {
           />
         </div>
 
-        <div className="box" data-aos="fade-left">
+        <div className="box">
           <img
             src="https://img.icons8.com/color/144/000000/html-5--v2.png"
             alt=""
           />
         </div>
-        <div className="box" data-aos="fade-left">
+        <div className="box">
           <img
             src="https://img.icons8.com/fluency/144/000000/css3.png"
             alt=""
           />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/color/144/000000/material-ui.png"
             alt=""
           />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/color/144/000000/postgreesql.png"
             alt=""
           />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/office/160/000000/react.png"
             alt=""
           />
         </div>
-        <div className="box" data-aos="fade-left">
+        <div className="box">
           <img src={sequelize} alt="" />
         </div>
-        <div className="box" data-aos="fade-left">
+        <div className="box">
           <img
             src="https://img.icons8.com/ios-filled/150/null/github.png"
             alt=""
