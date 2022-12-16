@@ -36,7 +36,7 @@ const Skills = () => {
         <div className="box" data-aos="fade-left">
           <img src="https://img.icons8.com/color/144/000000/redux.png" alt="" />
         </div>
-        <div className="box" data-aos="fade-left">
+        <div className="box">
           <img
             src="https://img.icons8.com/ios/150/000000/express-js.png"
             alt=""
