@@ -12,7 +12,7 @@ const Footer = () => {
   }, []);
   return (
     <footer className="footer-container" id="seccion5">
-      <div data-aos="fade-down-right">
+      <div>
         <div className="footer_info">
           <h1>Heiner Arevalo</h1>
           <p>Puerto Asis/Putumayo/Colombia</p>
@@ -20,7 +20,7 @@ const Footer = () => {
           <h3>Contact me</h3>
         </div>
 
-        <div className="sns_links">
+        <div className="sns_links" data-aos="fade-right">
           <a
             href="https://www.linkedin.com/in/heiner-arevalo-757937246/"
             target="_blank"
@@ -53,8 +53,10 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="text_container" data-aos="fade-down-left">
-        <h1>¡The power of imagination makes us infinite!</h1>
+      <div className="text_container">
+        <h1 data-aos="fade-down-left">
+          ¡The power of imagination makes us infinite!
+        </h1>
         <a
           href="https://drive.google.com/file/d/11lVpSSDYkX7LPRlRPE_m6mkw4MCWXN1T/view?usp=sharing"
           target="_blank"

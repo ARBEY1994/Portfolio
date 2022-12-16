@@ -15,10 +15,10 @@ const Skills = () => {
   return (
     <div className="skills-container" id="seccion3">
       <div className="compu" data-aos="fade-right">
-        <Spline scene="https://prod.spline.design/KCFgHx0E-okQ6DYG/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/Bo7-iKtKJDLdG9JC/scene.splinecode" />
       </div>
 
-      <div className="contenSkill" data-aos="fade-left">
+      <div className="contenSkill">
         <div className="box">
           <img
             src="https://img.icons8.com/fluency/144/000000/javascript.png"
@@ -36,20 +36,20 @@ const Skills = () => {
         <div className="box">
           <img src="https://img.icons8.com/color/144/000000/redux.png" alt="" />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/ios/150/000000/express-js.png"
             alt=""
           />
         </div>
 
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/color/144/000000/html-5--v2.png"
             alt=""
           />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/fluency/144/000000/css3.png"
             alt=""
@@ -73,10 +73,10 @@ const Skills = () => {
             alt=""
           />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img src={sequelize} alt="" />
         </div>
-        <div className="box">
+        <div className="box" data-aos="fade-left">
           <img
             src="https://img.icons8.com/ios-filled/150/null/github.png"
             alt=""

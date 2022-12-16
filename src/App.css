@@ -4,3 +4,6 @@
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
 }
+body {
+  background: radial-gradient(#788199, #c6c6c6, #c8c8c8);
+}

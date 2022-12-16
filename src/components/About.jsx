@@ -13,9 +13,9 @@ const About = () => {
   }, []);
   return (
     <div className="container-about" id="seccion2">
-      <div className="about" data-aos="fade-down-right">
+      <div className="about">
         <h3>About me</h3>
-        <p>
+        <p data-aos="fade-right">
           Software developer with knowledge in back-end and front-end developed
           through own projects and certified as a full stack developer by the
           soyHenry academy. I seek to develop my career, contributing with my
@@ -33,7 +33,7 @@ const About = () => {
       </div>
 
       <div className="about-img" data-aos="fade-down-left">
-        <Spline scene="https://prod.spline.design/NdCNayBMFCAVt-ll/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/jrZMbZy72C6j0L4A/scene.splinecode" />
       </div>
     </div>
   );

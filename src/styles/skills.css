@@ -1,7 +1,7 @@
 .skills-container {
   height: 100vh;
   width: 100%;
-  background-color: white;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -9,10 +9,11 @@
 .compu {
   height: 40rem;
   width: 43rem;
+  cursor: grabbing;
 }
 .contenSkill {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   grid-auto-rows: minmax(5rem, auto);
   grid-gap: 0.5rem;
 }

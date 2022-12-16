@@ -1,7 +1,7 @@
 .container-about {
   display: flex;
-  background-color: #a7a7a7;
-  color: white;
+
+  color: #515151;
   height: 100vh;
   padding: 100px 0 100px 0;
 }
@@ -20,7 +20,12 @@
 .about p {
   line-height: 1.5;
 }
-
+.about-img {
+  height: 50rem;
+  position: relative;
+  bottom: 9rem;
+  cursor: grabbing;
+}
 .botoncvA {
   background-color: rgb(95, 92, 92);
   color: white;
