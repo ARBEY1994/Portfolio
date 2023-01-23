@@ -55,7 +55,7 @@ const Slider = () => {
             </div>
           </a>
           <a
-            href="https://github.com/ARBEY1994/PI-POKEMON"
+            href="https://pi-pokemon-7ogr.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
