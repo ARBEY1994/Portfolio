@@ -8,6 +8,7 @@
   font-size: 1.3rem;
   z-index: 1;
 }
+
 .logona {
   height: 4em;
   line-height: 4em;
@@ -30,6 +31,14 @@
   padding-right: 1rem;
   position: relative;
   left: 25rem;
+}
+.shadow-on-scroll {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.5s;
+}
+
+.shadow-on-scroll.scrolled {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .ojooNav img {

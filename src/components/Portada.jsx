@@ -1,20 +1,24 @@
 import React from "react";
 import "../styles/Portada.css";
-import video from "../media/videoP.mp4";
+import video from "../media/Teclado.mp4";
 
 const Portada = () => {
   return (
-    <div className="portada1" id="seccion1">
-      <video className="videoPortada" src={video} autoPlay loop muted />
-      <div class="bg-5">
-        <h1 class="animated-shadow">Heiner Arevalo</h1>
-      </div>
+    // <div class="embed-responsive embed-responsive-16by9 portada1">
+    //   <video
+    //     class="embed-responsive-item"
+    //     src={video}
+    //     allowfullscreen
+    //     autoPlay
+    //     loop
+    //   ></video>
+    // </div>
 
-      {/* <h1>Heiner Arevalo</h1> */}
-      <p>
-        Full Stack Developer | JavaScript | HTML | CSS | Node.js | Express | SQL
-        | React | Redux
-      </p>
+    <div
+      id="seccion1"
+      className="embed-responsive embed-responsive-16by9 portada1"
+    >
+      <video src={video} autoPlay loop muted />
     </div>
   );
 };

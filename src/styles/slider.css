@@ -1,24 +1,25 @@
 .container-carrusel {
-  height: 100vh;
+  height: 100%;
   display: flex;
   vertical-align: center;
   align-items: center;
   padding: 2rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .container_project {
-  border-radius: 1rem;
-  background-color: #515151;
+  border-radius: 5em;
+  background-color: white;
 }
 .title-carrusel {
-  color: #515151;
   width: 40%;
   text-align: center;
   font-size: 2rem;
   padding: 0 10rem 0 10rem;
 }
 .imagen_carrusel {
-  height: 90%;
-  position: relative;
+  height: 100%;
+  width: 100%;
   cursor: pointer;
   padding: 1em;
   transition: all 0.2s ease-in-out;
@@ -26,23 +27,19 @@
 
 .imagen_carrusel:hover {
   transform: scale(1.1);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 960px) {
   .container-carrusel {
+    display: flex;
     flex-direction: column;
     justify-items: center;
   }
   .title-carrusel {
     width: 100%;
+    height: 100%;
     text-align: center;
     padding: 0.2rem 0 0.2rem 0;
-    position: relative;
-    top: 10rem;
-  }
-  .container_project {
-    position: relative;
-    top: 15rem;
   }
 }

@@ -1,74 +1,132 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/NavBar.css";
-import iconH from "../components/imagenes/iconHeaders.png";
-import list from "../components/imagenes/icons8-menu.gif";
+import logo from "../components/imagenes/Logo-arbey.png";
 
-const NavBar = ({ isScrolling }) => {
-  const arriba = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+const NavBar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 50) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
   };
-  const [state, setState] = useState(false);
-
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <nav className={`navBar ${isScrolling > 20 ? "scrolling" : null}`}>
-      <div className="menu_bar" onClick={() => setState(!state)}>
-        <p className="bt_menu">
-          {" "}
-          <img src={list} alt="list" />
-          Menu
-        </p>
-      </div>
-      <div className={`logona ${state && "open"}`} onClick={arriba}>
-        <div className="namen">
-          <p>Heiner Arevalo</p>
+    <nav
+      class={`navbar navbar-white bg-white fixed-top${
+        scrolled
+          ? "navbar navbar-white bg-white fixed-top shadow - on - scroll.scrolled"
+          : "navbar navbar-white bg-white fixed-top shadow - on - scroll"
+      }`}
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#seccion1">
+          <img src={logo} alt="not found" />
+        </a>
+        <div>
+          <ul class="nav justify-content-center ">
+            <li class="nav-item">
+              <a class="nav-link  text-black btn btn-light" href="#seccion1">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-black btn btn-light " href="#seccion2">
+                Sobre mi
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-black btn btn-light" href="#seccion3">
+                Habilidades
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-black btn btn-light" href="#seccion4">
+                Proyectos
+              </a>
+            </li>
+          </ul>
         </div>
-        <div className={`linksNav ${state && "open"}`}>
-          <div className="ojooNav">
-            <img src={iconH} alt="header" />
-            <a href="#seccion1" onClick={() => setState(!state)}>
-              Header
-            </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Contactame
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
-          <div className="ojooNav">
-            <img
-              src="https://img.icons8.com/ios-filled/50/null/guest-male--v2.png"
-              alt="abaut"
-            />
-            <a href="#seccion2" onClick={() => setState(!state)}>
-              About me
-            </a>
-          </div>
-          <div className="ojooNav">
-            <img
-              src="https://img.icons8.com/ios/50/null/development-skill.png"
-              alt="skill"
-            />
-            <a href="#seccion3" onClick={() => setState(!state)}>
-              Skills
-            </a>
-          </div>
-          <div className="ojooNav">
-            <img
-              src="https://img.icons8.com/ios/50/null/ms-project.png"
-              alt="proj"
-            />
-            <a href="#seccion4" onClick={() => setState(!state)}>
-              Projects
-            </a>
-          </div>
-          <div className="ojooNav">
-            <img
-              src="https://img.icons8.com/ios/50/null/phone-contact.png"
-              alt="cont"
-            />
-            <a href="#seccion5" onClick={() => setState(!state)}>
-              Contac me
-            </a>
-          </div>
-          <div className="nav_toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item ">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="https://www.linkedin.com/in/heiner-arevalo-757937246/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-linkedin"></i> LinkedIn
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="https://github.com/ARBEY1994"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-github"></i> GitHub
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="
+                  mailto:arbey221@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa fa-envelope"></i>
+                  Email
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="https://wa.me/573209130823?text=hola,Heiner"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-whatsapp "></i> Whatsapp
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import "../styles/footer.css";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import logoA from "../components/imagenes/Logo-arbey.png";
 
 const Footer = () => {
   useEffect(() => {
@@ -11,68 +12,43 @@ const Footer = () => {
     });
   }, []);
   return (
-    <footer className="footer-container" id="seccion5">
-      <div>
-        <div className="footer_info">
-          <h1>Heiner Arevalo</h1>
-          <p>Puerto Asis/Putumayo/Colombia</p>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2023 Copyright</p>
 
-          <h3>Contact me</h3>
-        </div>
-
-        <div className="sns_links" data-aos="fade-right">
-          <a
-            href="https://www.linkedin.com/in/heiner-arevalo-757937246/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-linkedin linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/ARBEY1994"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-github github"></i>
-          </a>
-          <a
-            href="
-          https://wa.me/573209130823?text=hola,Heiner"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-whatsapp whatsapp"></i>
-          </a>
-          <a
-            href="
-          mailto:arbey221@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa fa-envelope envelope" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-      <div className="text_container">
-        <h1 data-aos="fade-down-left">
-          ¡The power of imagination makes us infinite!
-        </h1>
         <a
-          href="https://drive.google.com/file/d/1U2jDUeRo47Zcl_jr58faZksXCkjWxPlK/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
         >
-          <button className="botoncv">See CV</button>
+          <svg class="bi me-2" width="100" height="80">
+            <image href={logoA} />
+          </svg>
         </a>
-      </div>
-      <div
-        className="footer_sns"
-        data-aos="flip-right"
-        data-aos-duration="1000"
-      >
-        <div className="desing_by">Desing by Heiner Arevalo</div>
-      </div>
-    </footer>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#seccion1" class="nav-link px-2 text-muted">
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#seccion2" class="nav-link px-2 text-muted">
+              Sobre mi
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#seccion3" class="nav-link px-2 text-muted">
+              Habilidades
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#seccion4" class="nav-link px-2 text-muted">
+              Preyectos
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   );
 };
 
