@@ -14,34 +14,34 @@ const Skills = () => {
   }, []);
   return (
     <div class="container-fluid" id="seccion3">
-      <div class="d-flex justify-content-center" data-aos="zoom-in">
+      <div class="d-flex justify-content-center">
         <div className="compu">
           <Spline scene="https://prod.spline.design/Bo7-iKtKJDLdG9JC/scene.splinecode" />
         </div>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-3 box" data-aos="zoom-in-up">
+          <div class="col-sm-3 box">
             <img
               src="https://img.icons8.com/fluency/144/000000/javascript.png"
               alt=""
             />
           </div>
 
-          <div className="col-sm-3 box" data-aos="zoom-in-up">
+          <div className="col-sm-3 box">
             <img
               src="https://img.icons8.com/color/144/000000/nodejs.png"
               alt=""
             />
           </div>
 
-          <div className="col-sm-3 box" data-aos="zoom-in-up">
+          <div className="col-sm-3 box">
             <img
               src="https://img.icons8.com/color/144/000000/redux.png"
               alt=""
             />
           </div>
-          <div className="col-sm-3 box" data-aos="zoom-in-up">
+          <div className="col-sm-3 box">
             <img
               src="https://img.icons8.com/ios/150/000000/express-js.png"
               alt=""
@@ -72,16 +72,16 @@ const Skills = () => {
               alt=""
             />
           </div>
-          <div className="col-sm-3 box" data-aos="zoom-in-up">
+          <div className="col-sm-3 box">
             <img
               src="https://img.icons8.com/office/160/000000/react.png"
               alt=""
             />
           </div>
-          <div className="col-sm-3 box" data-aos="zoom-in-up">
+          <div className="col-sm-3 box">
             <img src={sequelize} alt="" />
           </div>
-          <div className="col-sm-3 box" data-aos="zoom-in-up">
+          <div className="col-sm-3 box">
             <img
               src="https://img.icons8.com/ios-filled/150/null/github.png"
               alt=""

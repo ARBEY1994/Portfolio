@@ -91,7 +91,7 @@ const Slider = () => {
         </div>
         <div className="col-lg-6 ">
           <h1 class="display-5 fw-bold lh-1 mb-3 ">Mis proyectos...</h1>
-          <p class="lead" data-aos="fade-right">
+          <p class="lead">
             Como desarrollador full stack, he tenido la oportunidad de trabajar
             en una amplia gama de proyectos propios utilizando tecnologías
             avanzadas como PostgreSQL, JavaScript, Node.js, Express, React, CSS

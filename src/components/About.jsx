@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <div class="col-lg-6 ">
           <h1 class="display-5 fw-bold lh-1 mb-3 ">Sobre mi...</h1>
-          <p class="lead" data-aos="fade-right">
+          <p class="lead">
             ¡Hola a todos! Mi nombre es Heiner Arevalo, y soy un apasionado
             desarrollador full stack con una formación sólida en programación y
             tecnologías de vanguardia como .NET, JavaScript, Node, React, CSS y
