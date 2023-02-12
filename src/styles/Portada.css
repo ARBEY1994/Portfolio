@@ -1,12 +1,10 @@
-.portada1 {
-  height: 100%;
-  width: 100%;
+/* .portada1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   object-fit: contain;
 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-}
+} */
 
 /*Animación para rotar las sombras*/

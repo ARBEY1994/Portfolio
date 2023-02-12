@@ -4,21 +4,12 @@ import video from "../media/Teclado.mp4";
 
 const Portada = () => {
   return (
-    // <div class="embed-responsive embed-responsive-16by9 portada1">
-    //   <video
-    //     class="embed-responsive-item"
-    //     src={video}
-    //     allowfullscreen
-    //     autoPlay
-    //     loop
-    //   ></video>
-    // </div>
-
-    <div
-      id="seccion1"
-      className="embed-responsive embed-responsive-16by9 portada1"
-    >
-      <video src={video} autoPlay loop muted />
+    <div className="container-fluid" id="seccion1">
+      <div class="d-flex justify-content-center">
+        <div class="row">
+          <video src={video} autoPlay loop muted />
+        </div>
+      </div>
     </div>
   );
 };

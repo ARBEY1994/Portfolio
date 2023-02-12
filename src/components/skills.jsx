@@ -13,13 +13,13 @@ const Skills = () => {
     });
   }, []);
   return (
-    <div class="container" id="seccion3">
+    <div class="container-fluid" id="seccion3">
       <div class="d-flex justify-content-center" data-aos="zoom-in">
         <div className="compu">
           <Spline scene="https://prod.spline.design/Bo7-iKtKJDLdG9JC/scene.splinecode" />
         </div>
       </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3 box" data-aos="zoom-in-up">
             <img
