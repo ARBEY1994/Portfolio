@@ -19,11 +19,10 @@
   grid-gap: 0.5rem;
 }  */
 .box img {
-  /* adjust the below to control the 3D effect */
   --x: 10px;
   --y: 20px;
   transform: perspective(1000px) rotateX(var(--_a, 40deg));
-  /* */
+
   clip-path: polygon(
     var(--y) var(--y),
     calc(100% - var(--y)) var(--y),
@@ -42,7 +41,6 @@
   --_c: calc(100% - var(--y));
 }
 
-/* the below is irrelevant to the 3D effect */
 .box {
   cursor: pointer;
 }

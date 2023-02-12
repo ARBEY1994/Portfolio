@@ -4,11 +4,9 @@ import video from "../media/Teclado.mp4";
 
 const Portada = () => {
   return (
-    <div className="container-fluid " style={{ width: "100%" }} id="seccion1">
-      <div class="portada1">
-        <div class="row h-100">
-          <video src={video} autoPlay loop muted />
-        </div>
+    <div className=" embed-responsive embed-responsive-16by9" id="seccion1">
+      <div class="row embed-responsive-item portada1 ">
+        <video src={video} type="video/mp4" autoPlay loop muted />
       </div>
     </div>
   );

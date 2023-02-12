@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Home.css";
 import Portada from "./Portada";
 import NavBar from "./NavBar";
 import About from "./About";
