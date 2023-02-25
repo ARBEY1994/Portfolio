@@ -10,6 +10,7 @@ const About = () => {
       duration: 2000,
     });
   }, []);
+
   return (
     <div class="container col-xxl-8 px-4 py-5" id="seccion2">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
@@ -56,7 +57,7 @@ const About = () => {
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
               <a
                 class="nav-link"
-                href="https://drive.google.com/file/d/1Y2VotSlWA58UH2Es2sd31r3hkNIeHJ6p/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gd2DrJyyvsme0dZpGw7Qq5obVBa2u957/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
