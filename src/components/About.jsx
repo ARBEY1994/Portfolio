@@ -57,7 +57,7 @@ const About = () => {
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
               <a
                 class="nav-link"
-                href="https://drive.google.com/file/d/1gd2DrJyyvsme0dZpGw7Qq5obVBa2u957/view?usp=sharing"
+                href="https://drive.google.com/file/d/1LMDDcUwY8chi-PPqYFQ0cJCItFyxOfEU/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
