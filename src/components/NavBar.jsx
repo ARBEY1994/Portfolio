@@ -4,6 +4,24 @@ import logo from "../components/imagenes/Logo-arbey.png";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [showDiv, setShowDiv] = useState(true);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 768) {
+        setShowDiv(false);
+      } else {
+        setShowDiv(true);
+      }
+    }
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleScroll = () => {
     if (window.pageYOffset > 50) {
@@ -29,28 +47,42 @@ const NavBar = () => {
           <img src={logo} alt="not found" />
         </a>
         <div>
-          <ul class="nav justify-content-center ">
-            <li class="nav-item">
-              <a class="nav-link  text-black btn btn-light" href="#seccion1">
-                Inicio
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-black btn btn-light " href="#seccion2">
-                Sobre mi
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-black btn btn-light" href="#seccion3">
-                Habilidades
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-black btn btn-light" href="#seccion4">
-                Proyectos
-              </a>
-            </li>
-          </ul>
+          {showDiv && (
+            <ul class="nav justify-content-center ">
+              <li class="nav-item">
+                <a
+                  class="nav-link  text-black btn btn-light mx-2"
+                  href="#seccion1"
+                >
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link  text-black btn btn-light mx-2"
+                  href="#seccion2"
+                >
+                  Sobre mi
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link  text-black btn btn-light mx-2"
+                  href="#seccion3"
+                >
+                  Habilidades
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link  text-black btn btn-light mx-2"
+                  href="#seccion4"
+                >
+                  Proyectos
+                </a>
+              </li>
+            </ul>
+          )}
         </div>
 
         <button
