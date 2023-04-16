@@ -92,14 +92,14 @@ const Slider = () => {
         <div className="col-lg-6 ">
           <h1 class="display-5 fw-bold lh-1 mb-3 ">Mis proyectos...</h1>
           <p class="lead" data-aos="fade-right">
-            Como desarrollador full stack, he tenido la oportunidad de trabajar
-            en una amplia gama de proyectos propios utilizando tecnologías
-            avanzadas como PostgreSQL, JavaScript, Node.js, Express, Firebase,
-            React, CSS y Bootstrap. Además, estoy en constante aprendizaje y
-            preparación en .Net y SQL Server, ampliando mis conocimientos y
-            habilidades para ofrecer soluciones aún más completas y avanzadas en
-            el futuro. ¡Estoy emocionado de ver lo que el futuro me depara como
-            desarrollador!
+            Como desarrollador web full stack, he tenido la oportunidad de
+            trabajar en una amplia gama de proyectos utilizando tecnologías
+            avanzadas como PostgreSQL, JavaScript,APIs con .NET, Node.js,
+            Express, React, CSS y Bootstrap. Además, estoy en constante
+            aprendizaje y preparación en Firebase y autenticacion, ampliando mis
+            conocimientos y habilidades para ofrecer soluciones aún más
+            completas y avanzadas en el futuro. ¡Estoy emocionado de ver lo que
+            el futuro me depara como desarrollador!
           </p>
         </div>
       </div>
