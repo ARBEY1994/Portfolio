@@ -1,0 +1,15 @@
+.HondaHome {
+  height: 10em;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  right: 0;
+}
+.HondaSvg {
+  height: 100%;
+  width: 100%;
+}
+.HondaPath {
+  stroke: none;
+  fill: #6c757d;
+}

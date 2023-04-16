@@ -94,11 +94,11 @@ const Slider = () => {
           <p class="lead" data-aos="fade-right">
             Como desarrollador full stack, he tenido la oportunidad de trabajar
             en una amplia gama de proyectos propios utilizando tecnologías
-            avanzadas como PostgreSQL, JavaScript, Node.js, Express, React, CSS
-            y Bootstrap. Además, estoy en constante aprendizaje y preparación en
-            .Net y SQL Server, ampliando mis conocimientos y habilidades para
-            ofrecer soluciones aún más completas y avanzadas en el futuro.
-            ¡Estoy emocionado de ver lo que el futuro me depara como
+            avanzadas como PostgreSQL, JavaScript, Node.js, Express, Firebase,
+            React, CSS y Bootstrap. Además, estoy en constante aprendizaje y
+            preparación en .Net y SQL Server, ampliando mis conocimientos y
+            habilidades para ofrecer soluciones aún más completas y avanzadas en
+            el futuro. ¡Estoy emocionado de ver lo que el futuro me depara como
             desarrollador!
           </p>
         </div>

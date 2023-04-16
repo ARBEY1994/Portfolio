@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/NavBar.css";
-import logo from "../components/imagenes/Logo-arbey.png";
+import logo from "../components/imagenes/Logo-arbey.gif";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -36,7 +36,7 @@ const NavBar = () => {
   }, []);
   return (
     <nav
-      class={`navbar navbar-white bg-white fixed-top${
+      class={`navbar  fixed-top${
         scrolled
           ? "navbar navbar-white bg-white fixed-top shadow - on - scroll.scrolled"
           : "navbar navbar-white bg-white fixed-top shadow - on - scroll"

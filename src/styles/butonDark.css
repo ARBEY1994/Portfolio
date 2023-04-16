@@ -1,9 +1,5 @@
-.container-btn-mode {
-  cursor: pointer;
-  z-index: 2;
-  font-size: 0;
-}
 .btn-mode {
+  position: relative;
   display: inline-block;
   width: 50px;
   height: 30px;
@@ -29,11 +25,15 @@
   background-color: black;
   color: #ffcd5c !important;
 }
+.contenedor-botonDark {
+  background: #6c757d;
+}
 /* //------------- */
 
 .dark-mode {
-  background-color: #0e0e0e;
+  background-color: #0e0e0e !important;
   transition: background-color 0.5s;
+  background: #0e0e0e !important;
 }
 
 .dark-mode h1,

@@ -14,7 +14,7 @@ const About = () => {
   return (
     <div class="container col-xxl-8 px-4 py-5" id="seccion2">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
-        <div class="col-10 col-sm-8 col-lg-6 d-flex justify-content-center ">
+        <div class=" col-md-4 col-xs-12 col-sm-8 col-md-6 mx-auto text-center  d-flex justify-content-center ">
           <div
             class="carreaux_presentation_light  "
             style={{

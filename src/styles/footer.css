@@ -1,0 +1,29 @@
+.navbar-brand-footer img {
+  width: 30%;
+  height: auto;
+  position: relative;
+  border-radius: 6em;
+  transition: all 400ms ease;
+}
+.navbar-brand-footer img:hover {
+  transform: scale(1.1);
+}
+footer {
+  height: 7em; /* Cambie la altura según sea necesario */
+}
+
+.nav-item-footer a {
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand-footer img {
+    width: 20%;
+    position: relative;
+    left: 20%;
+  }
+  .letrasFooter {
+    position: relative;
+    bottom: 2em;
+  }
+}
