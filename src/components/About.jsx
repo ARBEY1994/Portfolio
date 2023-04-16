@@ -33,15 +33,15 @@ const About = () => {
           <h1 class="display-5 fw-bold lh-1 mb-3 ">Sobre mi...</h1>
           <p class="lead" data-aos="fade-right">
             ¡Hola a todos! Mi nombre es Heiner Arevalo, y soy un apasionado
-            desarrollador full stack con una formación sólida en programación y
-            tecnologías de vanguardia como .NET, JavaScript, Node, React, CSS y
-            mas. Con un enfoque en la resolución de problemas y la creatividad,
-            estoy comprometido a crear soluciones innovadoras y eficientes para
-            cualquier desafío que se me presente. Me encanta trabajar en equipo
-            y colaborar con otros para lograr resultados sorprendentes. En mi
-            tiempo libre, disfruto hacer ejercicio. Gracias por visitar mi
-            portafolio y espero tener la oportunidad de conectar y colaborar
-            contigo en el futuro. ¡Hasta pronto!
+            desarrollador con una formación sólida en programación y tecnologías
+            de vanguardia como .NET, JavaScript, Node, Firebase, React, CSS,
+            Bootstrap y mas. Con un enfoque en la resolución de problemas y la
+            creatividad, estoy comprometido a crear soluciones innovadoras y
+            eficientes para cualquier desafío que se me presente. Me encanta
+            trabajar en equipo y colaborar con otros para lograr resultados
+            sorprendentes. En mi tiempo libre, disfruto hacer ejercicio. Gracias
+            por visitar mi portafolio y espero tener la oportunidad de conectar
+            y colaborar contigo en el futuro. ¡Hasta pronto!
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
