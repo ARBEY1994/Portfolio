@@ -44,3 +44,14 @@
 .box {
   cursor: pointer;
 }
+.box img {
+  height: 10em;
+  width: 10em;
+}
+
+@media (max-width: 600px) {
+  .compu {
+    height: 20em;
+    width: 20em;
+  }
+}

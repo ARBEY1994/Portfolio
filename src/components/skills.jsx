@@ -24,9 +24,9 @@ const Skills = () => {
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row gutter-4">
+        <div class="row">
           <div
-            class="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            class=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -36,7 +36,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -46,7 +46,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -55,7 +55,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -65,7 +65,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -74,7 +74,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className="col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -83,7 +83,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -92,7 +92,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -101,7 +101,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -110,7 +110,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -119,7 +119,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
@@ -128,7 +128,7 @@ const Skills = () => {
             />
           </div>
           <div
-            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            className=" col-sm-3 col-xs-12 text-center mt-3 col-6 box"
             data-aos="zoom-in"
           >
             <img
