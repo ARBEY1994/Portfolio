@@ -47,7 +47,7 @@ const About = () => {
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
               <a
                 class="nav-link"
-                href="https://wa.me/573209130823?text=hola,Heiner?"
+                href="https://wa.me/573209130823?text=hola, Heiner"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,7 +57,7 @@ const About = () => {
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">
               <a
                 class="nav-link"
-                href="https://drive.google.com/file/d/1VXjV0lSt2qUmU4rRhBrH0PhCGSLC6N_0/view?usp=sharing"
+                href="https://drive.google.com/file/d/1kcMLW7VsEjMq5v-81GGEer2WC2jHOf1j/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
