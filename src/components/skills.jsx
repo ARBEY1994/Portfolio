@@ -54,20 +54,29 @@ const Skills = () => {
               alt=""
             />
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box">
+          <div
+            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            data-aos="zoom-in"
+          >
             <img
               src="https://img.icons8.com/ios/150/000000/express-js.png"
               alt=""
             />
           </div>
 
-          <div className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box">
+          <div
+            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            data-aos="zoom-in"
+          >
             <img
               src="https://img.icons8.com/color/144/000000/html-5--v2.png"
               alt=""
             />
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box">
+          <div
+            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            data-aos="zoom-in"
+          >
             <img
               src="https://img.icons8.com/fluency/144/000000/css3.png"
               alt=""
@@ -100,19 +109,28 @@ const Skills = () => {
               alt=""
             />
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box">
+          <div
+            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            data-aos="zoom-in"
+          >
             <img
               src="https://img.icons8.com/color/144/null/firebase.png"
               alt=" "
             />
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box">
+          <div
+            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            data-aos="zoom-in"
+          >
             <img
               src="https://img.icons8.com/ios-filled/150/null/github.png"
               alt=""
             />
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box">
+          <div
+            className="col-md-4 col-sm-6 col-xs-12 text-center mt-3 col-6 box"
+            data-aos="zoom-in"
+          >
             <img
               src="https://img.icons8.com/color/144/null/bootstrap.png"
               alt=""
