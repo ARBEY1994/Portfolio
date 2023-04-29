@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import "../styles/butonDark.css";
 import Ola from "./ola";
-
 import Home from "./Home";
 
 const ButonDark = () => {
@@ -14,7 +13,7 @@ const ButonDark = () => {
   return (
     <div>
       <div id="page" className={`page ${isDarkMode ? "dark-mode" : ""}`}>
-        <Home />
+        <Home isDarkMode={isDarkMode} />
         <Ola />
         <div className="contenedor-botonDark">
           <div

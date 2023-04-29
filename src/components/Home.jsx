@@ -7,10 +7,10 @@ import Slider from "./slider";
 import Footer from "./footer";
 import Raya from "./raya";
 
-const Home = () => {
+const Home = ({ isDarkMode }) => {
   return (
     <div>
-      <NavBar />
+      <NavBar isDarkMode={isDarkMode} />
       <Portada />
       <About />
       <Raya />

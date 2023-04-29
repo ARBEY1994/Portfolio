@@ -18,6 +18,9 @@
 .navbar-brand img:hover {
   transform: scale(1.1);
 }
+.bg-dark {
+  background-color: #0e0e0e !important;
+}
 @media (max-width: 600px) {
   .navbar-brand img {
     width: 20%;

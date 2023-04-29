@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/NavBar.css";
 import logo from "../components/imagenes/Logo-arbey.gif";
 
-const NavBar = () => {
+const NavBar = ({ isDarkMode }) => {
   const [scrolled, setScrolled] = useState(false);
   const [showDiv, setShowDiv] = useState(true);
 
@@ -36,11 +36,13 @@ const NavBar = () => {
   }, []);
   return (
     <nav
-      class={`navbar  fixed-top${
+      className={` navbar fixed-top bg-light ${
+        isDarkMode ? "navbar-dark bg-dark" : "navbar-light bg-light"
+      } ${
         scrolled
-          ? "navbar navbar-white bg-white fixed-top shadow - on - scroll.scrolled"
-          : "navbar navbar-white bg-white fixed-top shadow - on - scroll"
-      }`}
+          ? "navbar shadow - on - scroll.scrolled"
+          : "navbar shadow - on - scroll"
+      } `}
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#seccion1">

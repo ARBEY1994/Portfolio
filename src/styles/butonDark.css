@@ -36,11 +36,6 @@
   background: #0e0e0e !important;
 }
 
-.dark-mode h1,
-.dark-mode .btn-mode {
-  color: white;
-}
-
-.dark-mode p {
-  color: white;
+.dark-mode {
+  color: white !important;
 }
