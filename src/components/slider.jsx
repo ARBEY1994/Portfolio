@@ -6,6 +6,8 @@ import image from "./imagenes/imagenVideogame3.png";
 import images from "./imagenes/pokes.png";
 import manicura from "./imagenes/manicuraAnny.png";
 import estudent from "./imagenes/ImagenAppEst.jpg";
+import LoginApp from "./imagenes/LoginApp.png";
+import ListTask from "./imagenes/ListTaskApp.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -85,6 +87,30 @@ const Slider = () => {
                 <img src={estudent} alt="img no fount" />
 
                 <p className="legend">Project 5</p>
+              </div>
+            </a>
+            <a
+              title="velvet"
+              href="https://github.com/ARBEY1994/LoginMUI"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="imagen_carrusel">
+                <img src={LoginApp} alt="img no fount" />
+
+                <p className="legend">Project 6</p>
+              </div>
+            </a>
+            <a
+              title="velvet"
+              href="https://challenge-d.vercel.app/p"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="imagen_carrusel">
+                <img src={ListTask} alt="img no fount" />
+
+                <p className="legend">Project 7</p>
               </div>
             </a>
           </Carousel>
